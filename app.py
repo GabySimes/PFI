@@ -194,7 +194,6 @@ def actualizar_cantidad():
         conexion.close()
 
 
-
 # Funcion eliminar_producto, elimina un producto seleccionandolo por su ID
 
 def eliminar_producto():
@@ -301,13 +300,8 @@ def bajo_stock():
         ''')
             
         espera ()    
-        
-
     conexion.close()    
-    
-
-
-        
+       
 # Ejecución de la función main()
 if __name__ == "__main__":
     main()
